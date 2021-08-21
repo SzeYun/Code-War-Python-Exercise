@@ -1,0 +1,13 @@
+def array_diff(a, b):
+    newl=[]
+    for x in a:
+        if x not in b:
+            newl.append(x)
+    return(newl)
+        
+   # return [x for x in a if x not in b]
+    
+
+l=[1,2,2,2,3]
+m=[1,2]
+print(array_diff(l,m))
